@@ -396,14 +396,14 @@
   
   .heart-wrapper {
     position: absolute;
-    top: 50%;
+    top: calc(50% - 52.0px);
     left: 50%;
     margin: -15em 0 0 -15em;
   }
   
   .word-wrapper{
     position: absolute;
-    top: calc(520px);
+    top: calc(520px - 52.0px);
     text-align: center;
     width: 100%;
     color: #3e3e3e;
@@ -412,7 +412,7 @@
 
   .date-wrapper{
     position: absolute;
-    top: calc(520px + 52.0px + 52.0px);
+    top: calc(520px + 52.0px);
     text-align: center;
     width: 100%;
     color:#E02B50;
